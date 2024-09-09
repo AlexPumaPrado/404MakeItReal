@@ -79,7 +79,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Alexander Puma Prado
-- Linkedin - [@AlexanderPuma]([https://www.linkedin.com/in/alexander-puma-prado/])
+- Linkedin - [@AlexanderPuma](https://www.linkedin.com/in/alexander-puma-prado/)
 
 
 ## Acknowledgments
