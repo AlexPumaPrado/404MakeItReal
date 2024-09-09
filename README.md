@@ -1,6 +1,6 @@
-# Make It Real - NAME OF THE PROJECT
+# Make It Real - 404 Not Found Page
 
-This is a solution to the _______ project of the Make It Real course.
+This is a solution to the 404 Not Found Page project of the Make It Real course.
 
 ## Table of contents
 
@@ -78,8 +78,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Alexander Puma Prado
+- LinkdIn - [@AlexanderPuma]([https://www.twitter.com/yourusername](https://www.linkedin.com/in/alexander-puma-prado/))
 
 
 ## Acknowledgments
