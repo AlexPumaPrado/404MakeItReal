@@ -1,6 +1,6 @@
 # Make It Real - 404 Not Found Page
 
-This is a solution to the 404 Not Found Page project of the Make It Real course.
+Solución al proyecto de página 404(no encontrada)-Make It Real.
 
 ## Table of contents
 
@@ -18,22 +18,19 @@ This is a solution to the 404 Not Found Page project of the Make It Real course.
 
 ## Overview
 
+
+
 ### The challenge
 
 Users should be able to:
-
-- Task 1
-- Task 2
+Users will be able to view a 404 page.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+The result is displayed on the mobile version and on the desktop version.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Image_móvil](https://github.com/user-attachments/assets/4698d505-8d35-49ab-8d20-feac712dc8a5)
+![Imagen_PC](https://github.com/user-attachments/assets/5f3d997f-ff59-406f-8c32-b0482d630c44)
 
 
 ## My process
@@ -47,34 +44,30 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project I applied what I learned in HTML and CSS of the program, implementing them in an effective way and using flexbox for a more dynamic and personalized design.
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<img src="scarecrow.png">
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+@media (min-width: 1440px) {
+  .container1 {
+    margin: 0 auto;
+    padding: 10px 80px;
+  }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For future projects, I will focus on image optimization to ensure fast loading times. I'll also explore more about implementing CSS to improve the user experience.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Markdown Guide
 
 ## Author
 
@@ -84,4 +77,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I am grateful to the teachers of the project and the authors of the visual and written internet resources.
