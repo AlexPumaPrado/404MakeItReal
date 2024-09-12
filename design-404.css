@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  /*todos en el centro*/
+}
+
+/* Contenedor 1 del titulo */
+.container1 {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+/* Título */
+.Title h1 {
+  text-align: left;
+  justify-content: start;
+  color: #333333;
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/*Contenedor principal*/
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 10px;
+  flex-direction: column;
+  max-width: 375px;
+  /* Ancho de un móvil */
+}
+
+/* Imagen centrada */
+.image img {
+  max-width: 80%;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  /* Centra la imagen */
+}
+
+/* Títulos y textos */
+.Text {
+  height: 100%;
+  /* 100% del alto total */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Todos a la izquierda*/
+  text-align: left;
+  /* Todos los textos a la izquierda */
+  padding: 0 20px;
+  background-color: #ffffff;
+  /* Color de fondo blanco para el área principal */
+}
+
+.Text h3 {
+  font-size: 40px;
+  /* Letras grandes */
+  color: #333;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.Text p {
+  font-size: 16px;
+  /* Letras pequeñas */
+  padding: 0;
+  color: #4F4F4F;
+  padding: 0;
+}
+
+/* Botón */
+.Text Button {
+  background-color: #333333;
+  /* Fondo negro */
+  border: none;
+  color: white;
+  /* Letras blancas */
+  padding: 20px 25px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /*cambia de color cada 0.3s*/
+}
+
+.Button button:hover {
+  background-color: #555555;
+  /* Color del botón*/
+}
+
+/*autores*/
+.author {
+  width: 100%;
+  height: 100%;
+  padding: 60px 20px;
+  font-size: 10px;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.author a {
+  width: 100%;
+  padding: 40px 0;
+  color: #4F4F4F;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+/* Media Query para pantallas de 1440px o más */
+@media (min-width: 1440px) {
+  .container1 {
+    margin: 0 auto;
+    padding: 10px 80px;
+  }
+
+  .Title h1 {
+    font-size: 25px;
+  }
+
+  .container2 {
+    padding: 10px;
+    flex-direction: row;
+    width: 100%;
+    min-width: 1440px;
+    align-items: left;
+  }
+
+
+  .image img {
+    max-width: 80%;
+    padding: 0;
+
+  }
+
+  .Text h3 {
+    font-size: 68px;
+    margin: 20px 0;
+  }
+
+  .Text p {
+    font-size: 24px;
+    padding: 20px 0;
+  }
+
+  .Button button {
+    font-size: 20px;
+    padding: 40px;
+  }
+}
